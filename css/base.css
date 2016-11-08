@@ -1,0 +1,13 @@
+body,ul,li,p,h1,h2,h3,h4,h5,h6,ol,dl,dt,dd,input,span{
+	margin:0;padding:0;
+    list-style: none;
+}
+
+
+body{
+	font-family: 'SFNSText', 'Helvetica Neue', sans-serif;
+	  /*list-style: none 去除点*/
+	font-size: 14px; 
+	line-height: 1.5;  /*倍数行高，相对于字体大小来设置*/
+
+}
