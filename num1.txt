@@ -1,5 +1,0 @@
-仓库目录下的 .git/config 里面修改格式。
-url = git@github.com:xxxx/yyy.git
-
-提交：git push
-更新：git pull
