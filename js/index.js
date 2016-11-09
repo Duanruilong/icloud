@@ -51,7 +51,7 @@ var colors = ["#FF8600","#D07BE3","#62DA37","#1AABF8","#F7CA00","#A3855F","#FF2B
 var icloud=angular.module('icloud',[]);
 icloud.controller('iclouds',function($scope,locatodo){
 	$scope.todo=todo;
-	// locatodo.saveData('todo',$scope.todo);
+	locatodo.saveData('todo',$scope.todo);
 	$scope.todo = locatodo.getData('todo');
 	
 	$scope.index=$scope.todo.length-1;
